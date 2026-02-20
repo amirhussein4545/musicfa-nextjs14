@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  @apply text-3xl font-bold;
+}
+
+p {
+  @apply text-base leading-6;
+}
